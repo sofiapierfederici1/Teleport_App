@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: 1500px;
+    font-family: sans-serif;
+}
+
+.title{
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-input{
+    margin : 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button{
+    color :white;
+    background-color: black;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    border-color: black;
+    margin-top: 20px;
+    font-family:'Montserrat', sans-serif; ;
+
+
+ 
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+}
+
+.error-title{
+    background-color: lightblue;
+    text-align: center;
+    margin: 10px;
+    border-radius: 40px;
+}
+
+.summary{
+    background-color: lightblue;
+    text-align: center;
+    margin: 10px;
+    border-radius: 40px;
+    
+}
+
+.city-score{
+    background-color: lightblue;
+    text-align: center;
+    margin: 10px;
+    border-radius: 30px;
+  
+}
+
+.score{
+    background-color:lightblue;
+    text-align: center;
+    margin: 10px;
+    border-radius: 30px; 
+}
+
+.category{
+    background-color: lightblue;
+    text-align: center;
+    margin: 6px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.container-data{
+    display: flex;
+    flex-direction: column;
+}
+
+.container--data{
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.padding-summary{
+    padding : 20px;
+}
+
+
+    
+
+
+h3{
+    padding : 4px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.load{
+    display: none;
+    background-color:  lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    padding : 10px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    ;
+}
+
+
+
+@media screen and (max-width: 550px){
+    body{
+        font-size: 14px;
+    }
+
+    .title{
+        font-size: 26px;
+    }
+
+    .container--data{
+        width: 90%;
+    }
+}
