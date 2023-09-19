@@ -1,7 +1,7 @@
 # Teleport_App
 
 The app consists of entering the name of a city in the textbox, and clicking search the app will show the quality of life scores for that city.
-##You can try the app [here](https://zesty-cobbler-15cecd.netlify.app/).
+## You can try the app [here](https://zesty-cobbler-15cecd.netlify.app/).
 
 ***
 
